@@ -1,0 +1,16 @@
+body{
+    background-color: skyblue;
+    color: black;
+    font-family: 'Calibri';
+}
+
+#canvas{
+    width: 600px;
+    height: 400px;
+    border: 5px solid black;
+    /* Centering */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
